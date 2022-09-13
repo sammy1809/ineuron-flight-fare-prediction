@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Exo+2|Yatra+One');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Poppins';
 }
 
 body{
   /* background: #8c7ae6; */
   
-   background-color: #eaf4e1;
+   background-color: #ff8a53;
 }
 
 ul {
@@ -34,7 +34,7 @@ text-decoration: none;
 }
 
 .active{
-  background-color: rgb(16, 199, 16);
+  background-color: hsl(32, 100%, 63%);
 }
 
 .wrapper{
@@ -43,7 +43,6 @@ text-decoration: none;
 }
 
 .wrapper h1{
-  font-family: 'Yatra One', cursive;
   font-size: 48px;
   color: #fff;
   margin-bottom: 25px;
@@ -63,11 +62,10 @@ text-decoration: none;
   padding: 20px 10px;
 }
 
-.our_team .team_member .member_img{
+.our_team .team_member .member_img > img{
   background: #e9e5fa;  
-  max-width: 190px;
-  width: 100%;
-  height: 190px;
+  width: 10rem;
+  height: 10rem;
   margin: 0 auto;
   border-radius: 50%;
   padding: 5px;
