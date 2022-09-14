@@ -254,7 +254,7 @@ def predict():
             s_Mumbai = 0
             s_Chennai = 0
 
-        # print(s_Delhi,
+         # print(s_Delhi,
         #     s_Kolkata,
         #     s_Mumbai,
         #     s_Chennai)
